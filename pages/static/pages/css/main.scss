@@ -1,0 +1,15 @@
+.photo_gallery {
+    display: flex;
+
+    a {
+        display: inline-block;
+        height: 300px;
+    }
+
+    img {
+        object-position: center;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+}
