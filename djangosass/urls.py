@@ -8,7 +8,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('pet/<int:pk>/', gallery_view, name="index"),
     path('addpet/', add_pet_view, name="add_pet"),
-    
 ]
 
 if settings.DEBUG:
